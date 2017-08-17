@@ -1,0 +1,9 @@
+2017-03-29 21:04:12 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLException: Table "USERS" not found; SQL statement:
+SELECT username FROM users where id = ? [42102-193]
+2017-03-29 21:11:17 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLException: Table "USERS" not found; SQL statement:
+INSERT INTO users (username, password) VALUES (?,?) [42102-193]
+2017-03-29 21:25:16 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLException: Table "USERS" not found; SQL statement:
+INSERT INTO users (username, password) VALUES (?,?) [42102-193]
